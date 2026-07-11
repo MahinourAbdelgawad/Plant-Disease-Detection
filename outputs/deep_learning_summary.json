@@ -1,0 +1,52 @@
+{
+  "best_model": "resnet50",
+  "comparison": {
+    "mobilenet_v2": {
+      "val_acc": 0.9953903938083314,
+      "val_f1": 0.996614703055126,
+      "train_time_min": 28.64268826643626
+    },
+    "resnet50": {
+      "val_acc": 0.9988049169132711,
+      "val_f1": 0.999124379769003,
+      "train_time_min": 53.31115465561549
+    }
+  },
+  "test_report": {
+    "diseased": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 27.0
+    },
+    "healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 33.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 33.0
+    }
+  },
+  "test_confusion_matrix": [
+    [
+      6,
+      0
+    ],
+    [
+      0,
+      27
+    ]
+  ]
+}
